@@ -2,7 +2,7 @@
 
 SAIDA="resultados.txt"         # arquivo de saida (resultados)
 THREADS_LIST=(1 2 4 8 16)      # número de threads disponíveis
-PONTOS_FIXOS=1000000000        # 1 bilhão (escalonamento forte)
+PONTOS_FIXOS=10000000000       # 10 bilhoes (escalonamento forte)
 TRABALHO_POR_THREAD=100000000  # 100 milhões (escalonamento fraco)
 
 # Verifica se os arquivos fonte existem

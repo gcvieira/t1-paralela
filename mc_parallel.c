@@ -41,7 +41,7 @@ int main() {
     double tempo = fim - inicio;
 
     // Resultados
-    printf("\n=== RESULTADO MONTE CARLO PARALELO ===\n");
+    printf("\n--- RESULTADO PARALELO ---\n");
     printf("Pontos gerados:         %d\n", total_pontos);
     printf("Pontos dentro do círculo: %d\n", dentro);
     printf("Estimativa de Pi:       %.10f\n", pi);

@@ -32,7 +32,7 @@ int main() {
     double tempo = (double)(fim - inicio) / CLOCKS_PER_SEC;
 
     // Resultados
-    printf("\n=== RESULTADO MONTE CARLO SEQUENCIAL ===\n");
+    printf("\n--- RESULTADO SEQUENCIAL ---\n");
     printf("Pontos gerados:         %d\n", total_pontos);
     printf("Pontos dentro do círculo: %d\n", dentro);
     printf("Estimativa de Pi:       %.10f\n", pi);

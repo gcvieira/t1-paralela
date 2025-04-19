@@ -1,0 +1,86 @@
+Benchmark Monte Carlo - Fri Apr 18 06:47:13 PM -03 2025
+
+--------------------------------
+
+Rodada 1 - 100000 pontos
+
+=== RESULTADO MONTE CARLO SEQUENCIAL ===
+Pontos gerados:         100000
+Pontos dentro do círculo: 78384
+Estimativa de Pi:       3.1353600000
+Tempo de execução:      0.0013 segundos
+
+
+=== RESULTADO MONTE CARLO PARALELO ===
+Pontos gerados:         100000
+Pontos dentro do círculo: 78312
+Estimativa de Pi:       3.1324800000
+Tempo de execução:      0.0144 segundos
+
+--------------------------------
+
+Rodada 2 - 1000000 pontos
+
+=== RESULTADO MONTE CARLO SEQUENCIAL ===
+Pontos gerados:         1000000
+Pontos dentro do círculo: 784969
+Estimativa de Pi:       3.1398760000
+Tempo de execução:      0.0114 segundos
+
+
+=== RESULTADO MONTE CARLO PARALELO ===
+Pontos gerados:         1000000
+Pontos dentro do círculo: 785128
+Estimativa de Pi:       3.1405120000
+Tempo de execução:      0.0116 segundos
+
+--------------------------------
+
+Rodada 3 - 10000000 pontos
+
+=== RESULTADO MONTE CARLO SEQUENCIAL ===
+Pontos gerados:         10000000
+Pontos dentro do círculo: 7854736
+Estimativa de Pi:       3.1418944000
+Tempo de execução:      0.1119 segundos
+
+
+=== RESULTADO MONTE CARLO PARALELO ===
+Pontos gerados:         10000000
+Pontos dentro do círculo: 7852175
+Estimativa de Pi:       3.1408700000
+Tempo de execução:      0.0071 segundos
+
+--------------------------------
+
+Rodada 4 - 100000000 pontos
+
+=== RESULTADO MONTE CARLO SEQUENCIAL ===
+Pontos gerados:         100000000
+Pontos dentro do círculo: 78532018
+Estimativa de Pi:       3.1412807200
+Tempo de execução:      1.1126 segundos
+
+
+=== RESULTADO MONTE CARLO PARALELO ===
+Pontos gerados:         100000000
+Pontos dentro do círculo: 78539577
+Estimativa de Pi:       3.1415830800
+Tempo de execução:      0.0687 segundos
+
+--------------------------------
+
+Rodada 5 - 1000000000 pontos
+
+=== RESULTADO MONTE CARLO SEQUENCIAL ===
+Pontos gerados:         1000000000
+Pontos dentro do círculo: 785418717
+Estimativa de Pi:       3.1416748680
+Tempo de execução:      11.1460 segundos
+
+
+=== RESULTADO MONTE CARLO PARALELO ===
+Pontos gerados:         1000000000
+Pontos dentro do círculo: 785393575
+Estimativa de Pi:       3.1415743000
+Tempo de execução:      0.7009 segundos
